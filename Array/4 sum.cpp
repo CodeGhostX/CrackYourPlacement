@@ -14,7 +14,7 @@ public:
                 e--;
                 s++;
                 while(e>i && nums[e]==nums[e+1]) e--;
-                while(s<n && nums[s]==nums[s-1]) s++; 
+                while(s<n && nums[s]==nums[s-1]) s++;
             }
             else if(sum>target){
                 e--;
