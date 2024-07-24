@@ -1,7 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-#include <bits/stdc++.h>
 int findMinimumCost(vector<int> &arr, int n)
 {
     sort(arr.begin(), arr.end());
