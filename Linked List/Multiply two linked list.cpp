@@ -2,12 +2,12 @@
 using namespace std;
 
 // Definition for singly-linked list.
-struct ListNode {
+struct Node {
     int data;
-    ListNode *next;
-    ListNode() : val(0), next(nullptr) {}
-    ListNode(int x) : val(x), next(nullptr) {}
-    ListNode(int x, ListNode *next) : val(x), next(next) {}
+    Node *next;
+    Node() : data(0), next(nullptr) {}
+    Node(int x) : data(x), next(nullptr) {}
+    Node(int x, Node *next) : data(x), next(next) {}
 };
 
 class solution {
